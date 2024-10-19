@@ -1,0 +1,89 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.786);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    width: 100%;
+    max-width: 700px;
+    color: #fff;
+    background: linear-gradient(135deg,#153677, #4e085f);
+    margin: 100px auto 0;
+    border-radius: 25px;
+    padding-top: 40px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+#search-box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 15px;
+}
+#search-box #input{
+    height: 50px;
+    width: 80%;
+    border: none;
+    outline: none;
+    background: #edeef0;
+    border-radius: 25px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+    font-weight: 14px;
+    font-size: larger;
+}
+#search-box #btn{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    padding-top: 5px;
+    margin-bottom: 20px;
+    font-weight: 14px;
+}
+#search-box #btn img{
+    width: 16px;
+}
+#weather{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#temp{
+    padding-top: 30px;
+} 
+#temp h1{
+    font-size: 4rem;
+}
+#city{
+    padding-top: 15px;
+}
+#city h1{
+    font-size: 3rem;
+    font-weight: lighter;
+}
+#other{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#humidity , #wind{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
